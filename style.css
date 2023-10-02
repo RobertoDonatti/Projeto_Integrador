@@ -1,7 +1,7 @@
 body{
     background-color: rgb(54, 152, 209);
     color: white;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 15px;
 }
@@ -28,6 +28,9 @@ h1{
 }
 
 main{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
 }
