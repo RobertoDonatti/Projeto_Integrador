@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(63, 168, 230);
+    color: white;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: row;
+    font-weight: 200px;
+    font-size: 70px;
+    color: rgb(12, 223, 195);
+}
+
+a:hover{
+    color: aqua;
+    transition: 0.3s all;
+}
+
+h3{
+    font-size: 40px;
+}
+
+#exp{
+    font-size: 30px;
+    font-weight: 200;
+    flex-direction: column;
+}
+
+#baby{
+    width: 360px;
+    height: 430px;
+    border-radius: 25%;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#foot{
+    font-size: 33px;
+}
+

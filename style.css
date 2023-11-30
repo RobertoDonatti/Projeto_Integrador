@@ -1,7 +1,7 @@
 body{
-    background-color: rgb(54, 152, 209);
+    background-color: rgb(63, 168, 230);
     color: white;
-    max-width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 15px;
 }
@@ -28,9 +28,6 @@ h1{
 }
 
 main{
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 70px;
     display: flex;
     flex-direction: row;
 }
@@ -42,23 +39,25 @@ h2{
 
 span{
     color: rgb(12, 223, 195);
+    font-size: 70px;
 }
 
 p{
-    line-height: 20px;
-    max-width: 500px;
+    line-height: 50px;
+    max-width: 700px;
     font-weight: 200;
-    font-size: 23px;
+    font-size: 50px;
 }
 
 img{
     width: 600px;
+    margin-left: 300px;
 }
 
 a{
     color: white;
     text-decoration: none;
-    font-size: large;
+    font-size: 25px;
 }
 
 a:hover{
@@ -77,12 +76,6 @@ a:hover{
     color: white;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-}
-
 #submit{
     height: 50px;
     width: 50%;
@@ -96,11 +89,39 @@ cursor: pointer;
 transition: 0.3s ;
 
 }
-input{
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 20px;
+#btn{
+    background-color: rgb(60, 214, 206);
     border: none;
-    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: 30px;
+    margin-left: px;
+    margin-right: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#btn:hover{
+        background-color:  rgb(83, 184, 243);
+        color: white;
+        transition: background-color 0.3s ;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#footp{
+    font-size: 33px;
 }
